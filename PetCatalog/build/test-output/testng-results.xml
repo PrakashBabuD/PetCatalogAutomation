@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[26-Sep-2016 06:16:51 PM : Validating whether pets of the male owner are loaded ]]>
+    </line>
+    <line>
+      <![CDATA[26-Sep-2016 06:16:51 PM : Validating whether pets of the male owner are loaded ]]>
+    </line>
+    <line>
+      <![CDATA[26-Sep-2016 06:16:53 PM : Validating whether pets of the male owner are loaded ]]>
+    </line>
+  </reporter-output>
+  <suite name="PETCATALOG_AUTOMATION" duration-ms="6480" started-at="2016-09-26T12:46:47Z" finished-at="2016-09-26T12:46:53Z">
+    <groups>
+      <group name="PetCatalog_Regression_Testcases">
+        <method signature="PetCatalogTest.Pet_Catalog_Test_1()[pri:0, instance:com.agl.petcatalog.testcases.PetCatalogTest@73600b34]" name="Pet_Catalog_Test_1" class="com.agl.petcatalog.testcases.PetCatalogTest"/>
+      </group> <!-- PetCatalog_Regression_Testcases -->
+      <group name="Pet_Catalog_Testcases">
+        <method signature="PetCatalogTest.Pet_Catalog_Test_1()[pri:0, instance:com.agl.petcatalog.testcases.PetCatalogTest@73600b34]" name="Pet_Catalog_Test_1" class="com.agl.petcatalog.testcases.PetCatalogTest"/>
+      </group> <!-- Pet_Catalog_Testcases -->
+      <group name="Pet_Catalog_Test_1">
+        <method signature="PetCatalogTest.Pet_Catalog_Test_1()[pri:0, instance:com.agl.petcatalog.testcases.PetCatalogTest@73600b34]" name="Pet_Catalog_Test_1" class="com.agl.petcatalog.testcases.PetCatalogTest"/>
+      </group> <!-- Pet_Catalog_Test_1 -->
+    </groups>
+    <test name="PETCATALOG_AUTOMATION" duration-ms="6480" started-at="2016-09-26T12:46:47Z" finished-at="2016-09-26T12:46:53Z">
+      <class name="com.agl.petcatalog.testcases.PetCatalogTest">
+        <test-method status="PASS" signature="Pet_Catalog_Test_1()[pri:0, instance:com.agl.petcatalog.testcases.PetCatalogTest@73600b34]" name="Pet_Catalog_Test_1" duration-ms="6465" started-at="2016-09-26T18:16:47Z" finished-at="2016-09-26T18:16:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[26-Sep-2016 06:16:51 PM : Validating whether pets of the male owner are loaded ]]>
+            </line>
+            <line>
+              <![CDATA[26-Sep-2016 06:16:51 PM : Validating whether pets of the male owner are loaded ]]>
+            </line>
+            <line>
+              <![CDATA[26-Sep-2016 06:16:53 PM : Validating whether pets of the male owner are loaded ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Pet_Catalog_Test_1 -->
+      </class> <!-- com.agl.petcatalog.testcases.PetCatalogTest -->
+    </test> <!-- PETCATALOG_AUTOMATION -->
+  </suite> <!-- PETCATALOG_AUTOMATION -->
+</testng-results>

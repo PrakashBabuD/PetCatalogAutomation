@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PETCATALOG_AUTOMATION]" parallel="methods">
+  <test name="PETCATALOG_AUTOMATION(failed)" parallel="methods">
+    <groups>
+      <run>
+        <include name="Pet_Catalog_Test_1"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.agl.petcatalog.testcases.PetCatalogTest">
+        <methods>
+          <include name="Pet_Catalog_Test_1"/>
+        </methods>
+      </class> <!-- com.agl.petcatalog.testcases.PetCatalogTest -->
+    </classes>
+  </test> <!-- PETCATALOG_AUTOMATION(failed) -->
+</suite> <!-- Failed suite [PETCATALOG_AUTOMATION] -->
